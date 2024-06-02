@@ -6,7 +6,7 @@ const ProductCard = ({ data,handleSeacrh }) => {
         <div>
 
 
-            <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-4 mt-5 '>
+            <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-5 mt-5 '>
                 {data.map((ele) => {
                     return <div className=" z-0 shadow-md p-4 cursor-pointer hover:transition-all hover:ease-in-out hover:duration-500 hover:scale-105" key={ele.id}>
                         <div>
